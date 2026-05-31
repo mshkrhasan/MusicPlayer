@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Glow Ring -->
+    <path
+        android:pathData="M54,54m-38,0a38,38 0 1,1 76,0a38,38 0 1,1 -76,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="38"
+                android:type="radial">
+                <item android:color="#336650a4" android:offset="0.8"/>
+                <item android:color="#006650a4" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pulsing Geometric Wave -->
+    <path
+        android:pathData="M30,54 L35,54 M40,54 L50,54 M55,54 L78,54"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeColor="#33FFFFFF"/>
+
+    <!-- Sharp Geometric Play Symbol -->
+    <path
+        android:pathData="M42,35 L75,54 L42,73 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="75"
+                android:endY="54"
+                android:startX="42"
+                android:startY="54"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0"/>
+                <item android:color="#FFD0BCFF" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Floating particles for premium feel -->
+    <path
+        android:pathData="M70,30 L71,30 M30,80 L31,80 M80,80 L81,80"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#66FFFFFF"/>
+</vector>
